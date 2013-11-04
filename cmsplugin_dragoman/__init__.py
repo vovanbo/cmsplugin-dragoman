@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 VERSION = (1, 0, 0, 'pre', 0)
 
-def get_version(): # pragma: no cover
+
+def get_version():  # pragma: no cover
     version = '%s.%s' % (VERSION[0], VERSION[1])
     if VERSION[2]:
         version = '%s.%s' % (version, VERSION[2])
