@@ -1,5 +1,5 @@
 from django.utils.translation import ugettext as _
-from dragoman_blog.model_bases import BaseEntry, BaseEntryTranslation
+from dragoman_blog.model_bases import BaseEntry
 from cms.models.fields import PlaceholderField
 
 
